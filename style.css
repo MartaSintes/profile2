@@ -1,0 +1,135 @@
+body {
+  text-align: center;
+  background-color:#F0F0F0;  
+  font-family:'Roboto', sans-serif; 
+  color:#242627 ; 
+  font-size:20px ;
+  line-height:21px ;
+  margin: 10px 60px 10px 60px;
+}
+
+h1 {
+  font-family:'DM Sans', sans-serif;
+  color:#242627 ; 
+  font-size:30px ;
+  line-height: 50px ;
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  object-fit:cover;
+  object-position: top;
+  /* display: inline-block; */
+    
+}
+button {
+  border-radius: 50px;
+  background: #1F1F1F;
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 10px 20px;
+  border: none;
+  border: 1px solid #0c0c0c;
+  transition: 300ms ease;
+}
+
+button:hover {
+  
+  color: #0f0f0f;
+  background-color:#FFFFFF;
+}
+a {
+  text-decoration: none;
+  color: #fff
+  
+
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+
+}
+div {
+  border-radius: 5px;
+  background-color:#FFFFFF;
+}
+ .header {
+   
+   padding: 13px;
+   width:622px;
+   margin: 20px auto;
+   box-shadow: 0 5px 20px rgba(0,0,0,.1);
+   padding-top: 2px;
+ }
+ .container {
+   padding: 13px;
+   width: 622px;
+   margin: 20px auto;
+   box-shadow: 0 5px 20px rgba(0,0,0,.1)
+ }
+ .footer {
+   color: #fff;
+   background-color: #1F1F1F;
+   width: 622px;
+   padding: 13px;
+   margin: 20px auto;
+   box-shadow: 0 5px 5px rgba(0,0,0,.1)
+ }
+ .card {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    color: white;
+    padding: 4px;
+    
+ }
+ .name-picture {
+   padding: 0px;
+   display: flex;
+   justify-content: center;
+   margin-top: 19px
+ }
+ #history {
+   background-image:linear-gradient(45deg, #eeeeee57, rgb(0 0 0 / 10%)), url(images/egypt.jpg);
+   background-size:cover;
+   padding: 50px 0;
+   border-radius: 5px;
+   color: white;
+   margin-bottom: 11px
+   
+ }
+ #chinese {
+   background-image:linear-gradient(45deg, #eeeeee57, rgb(0 0 0 / 10%)), url(images/china.jpg);
+   background-size:cover;
+   padding: 50px 0;
+   border-radius: 5px;
+   margin-bottom: 11px;
+   color: white;
+
+ }
+ #cats {
+   background-image:linear-gradient(45deg, #eeeeee57, rgb(0 0 0 / 10%)),url(images/cats.jpg);
+   background-size:cover;
+   padding: 50px 0;
+   border-radius: 5px;
+   margin-bottom: 11px;
+   color: white;
+ }
+
+ 
